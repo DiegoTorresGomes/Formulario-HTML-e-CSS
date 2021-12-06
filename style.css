@@ -5,7 +5,11 @@
 
 body{
     font-family:'Courier New', Courier, monospace;
-    background-color: black;
+    background-image: url(./Assets/background.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .container{
@@ -27,9 +31,8 @@ section{
     padding: 20px;
     height: 550px;
     width: 960px;
-    background-image: url(./Assets/background.jpg);
     background-size: cover;
-    
+    border-radius: 20px;
     
 }
 
@@ -38,8 +41,7 @@ section{
     background-color: #ffffff33;
     padding: 20px;
     position: fixed;
-    left: 40%;
-    bottom: 40%;
+    transform: translate(130%, 130%);
 }
 
 
