@@ -30,7 +30,6 @@ header{
 section{
     padding: 20px;
     height: 550px;
-    width: 960px;
     background-size: cover;
     border-radius: 20px;
     
@@ -40,7 +39,7 @@ section{
     max-width: 230px;
     background-color: #ffffff33;
     padding: 20px;
-    position: fixed;
+    position: sticky;
     transform: translate(130%, 130%);
 }
 
